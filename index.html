@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.0/dist/sweetalert2.min.css">
 
-    <title>Hexashop Ecommerce HTML CSS Template</title>
+    <title>Queen Fashion</title>
 
 
     <!-- Additional CSS Files -->
@@ -22,17 +24,11 @@
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
 
     <link rel="stylesheet" href="assets/css/lightbox.css">
-<!--
 
-TemplateMo 571 Hexashop
+</head>
 
-https://templatemo.com/tm-571-hexashop
+<body>
 
--->
-    </head>
-    
-    <body>
-    
     <!-- ***** Preloader Start ***** -->
     <div id="preloader">
         <div class="jumper">
@@ -40,52 +36,38 @@ https://templatemo.com/tm-571-hexashop
             <div></div>
             <div></div>
         </div>
-    </div>  
+    </div>
     <!-- ***** Preloader End ***** -->
-    
-    
+
+
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <!-- <a href="index.html" class="logo">
-                            <img src="assets/images/logo.png">
-                        </a> -->
                         <h5 class="logo text-dark"><span class="text-warning">Queen</span> Fashion</h5>
-                        <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#top" class="active">Beranda</a></li>
-                            <li class="scroll-to-section"><a href="#men">Dress</a></li>
-                            <li class="scroll-to-section"><a href="#women">Atasan</a></li>
-                            <li class="scroll-to-section"><a href="#kids">Bawahan</a></li>
-                            <li class="submenu">
-                                <a href="javascript:;">Pages</a>
-                                <ul>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="products.html">Products</a></li>
-                                    <li><a href="single-product.html">Single Product</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                </ul>
+                            <li class="scroll-to-section"><a href="#men">Atasan</a></li>
+                            <li class="scroll-to-section"><a href="#women">Bawahan</a></li>
+                            <li class="scroll-to-section"><a href="#kids">Koleksi</a></li>
+                            <li>
+                                <a href="cart.html" id="cart">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                                        class="bi bi-cart-fill position-relative" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                    </svg>
+                                    <span id="cart-count" class="cart-badge"></span>
+                                </a>
                             </li>
-                            <li class="submenu">
-                                <a href="javascript:;">Features</a>
-                                <ul>
-                                    <li><a href="#">Features Page 1</a></li>
-                                    <li><a href="#">Features Page 2</a></li>
-                                    <li><a href="#">Features Page 3</a></li>
-                                    <li><a rel="nofollow" href="https://templatemo.com/page/4" target="_blank">Template Page 4</a></li>
-                                </ul>
-                            </li>
-                            <li class="scroll-to-section"><a href="#explore">Explore</a></li>
-                        </ul>        
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
+                            </ul>
+                            <a class='menu-trigger'>
+                                <span>Menu</span>
+                            </a>
+                            <!-- ***** Menu End ***** -->
                     </nav>
                 </div>
             </div>
@@ -104,10 +86,10 @@ https://templatemo.com/tm-571-hexashop
                                 <h4>Queen Fashion</h4>
                                 <span> Membuat Anda Tampil Lebih Percaya Diri</span>
                                 <div class="main-border-button">
-                                    <a href="#">Belnaja Sekarang</a>
+                                    <a href="#">Belanja Sekarang</a>
                                 </div>
                             </div>
-                            <img src="assets/images/butik-bg.jpg" class="img-fluid bg-danger" alt="">
+                            <img src="assets/images/butik-bg.jpg" class="img-fluid " alt="">
                         </div>
                     </div>
                 </div>
@@ -124,7 +106,8 @@ https://templatemo.com/tm-571-hexashop
                                         <div class="hover-content">
                                             <div class="inner">
                                                 <h4>Dress Wanita</h4>
-                                                <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
+                                                <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.
+                                                </p>
                                                 <div class="main-border-button">
                                                     <a href="#">Discover More</a>
                                                 </div>
@@ -144,7 +127,8 @@ https://templatemo.com/tm-571-hexashop
                                         <div class="hover-content">
                                             <div class="inner">
                                                 <h4>Atasan</h4>
-                                                <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
+                                                <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.
+                                                </p>
                                                 <div class="main-border-button">
                                                     <a href="#">Discover More</a>
                                                 </div>
@@ -164,7 +148,8 @@ https://templatemo.com/tm-571-hexashop
                                         <div class="hover-content">
                                             <div class="inner">
                                                 <h4>Bawahan</h4>
-                                                <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
+                                                <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.
+                                                </p>
                                                 <div class="main-border-button">
                                                     <a href="#">Discover More</a>
                                                 </div>
@@ -184,13 +169,14 @@ https://templatemo.com/tm-571-hexashop
                                         <div class="hover-content">
                                             <div class="inner">
                                                 <h4>Accessories</h4>
-                                                <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
+                                                <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.
+                                                </p>
                                                 <div class="main-border-button">
                                                     <a href="#">Discover More</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="assets/images/Hijab.jpg">
+                                        <img src="assets/images/hijab.jpg">
                                     </div>
                                 </div>
                             </div>
@@ -209,7 +195,6 @@ https://templatemo.com/tm-571-hexashop
                 <div class="col-lg-6">
                     <div class="section-heading">
                         <h2>Produk Atasan Terbaru</h2>
-                        <!-- <span>Details to details is what makes Hexashop different from the other themes.</span> -->
                     </div>
                 </div>
             </div>
@@ -221,18 +206,11 @@ https://templatemo.com/tm-571-hexashop
                         <div class="owl-men-item owl-carousel">
                             <div class="item">
                                 <div class="thumb">
-                                    <!-- <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div> -->
                                     <img src="assets/images/produk/produk-19.jpeg" alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Derla Dress</h4>
-                                    <span>RP 195.000</span>
+                                    <span class="text-warning">RP 195.000</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -240,22 +218,22 @@ https://templatemo.com/tm-571-hexashop
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
                                     </ul>
+                                    <button class="btn btn-warning text-white w-100"
+                                        onclick="addToCart('Derla Dress', 195000, 'assets/images/produk/produk-19.jpeg')"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                        </svg>Simpan Ke Keranjang</button>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="thumb">
-                                    <!-- <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div> -->
                                     <img src="assets/images/produk/produk-13.jpeg" alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Kaos Aster</h4>
-                                    <span>RP 160.000</span>
+                                    <span class="text-warning">RP 160.000</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -263,22 +241,22 @@ https://templatemo.com/tm-571-hexashop
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
                                     </ul>
+                                    <button class="btn btn-warning text-white w-100"
+                                        onclick="addToCart('Kaos Aster', 160000, 'assets/images/produk/produk-13.jpeg')"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                        </svg>Simpan Ke Keranjang</button>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="thumb">
-                                    <!-- <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div> -->
                                     <img src="assets/images/produk/produk-16.jpeg" alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Rayon Viscose</h4>
-                                    <span>RP 125.00</span>
+                                    <span class="text-warning">RP 125.000</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -286,22 +264,25 @@ https://templatemo.com/tm-571-hexashop
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
                                     </ul>
+                                    <button class="btn btn-warning text-white w-100"
+                                        onclick="addToCart('Rayon Viscose', 125000, 'assets/images/produk/produk-16.jpeg')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                        </svg>
+                                        Simpan Ke Keranjang
+                                    </button>
                                 </div>
                             </div>
+
                             <div class="item">
                                 <div class="thumb">
-                                    <!-- <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div> -->
                                     <img src="assets/images/produk/produk-20.jpeg" alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Gisel Dress</h4>
-                                    <span>RP 85.000</span>
+                                    <span class="text-warning">RP 85.000</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -309,22 +290,25 @@ https://templatemo.com/tm-571-hexashop
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
                                     </ul>
+                                    <button class="btn btn-warning text-white w-100"
+                                        onclick="addToCart('Gisel Dress', 85000, 'assets/images/produk/produk-20.jpeg')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                        </svg>
+                                        Simpan Ke Keranjang
+                                    </button>
                                 </div>
                             </div>
+
                             <div class="item">
                                 <div class="thumb">
-                                    <!-- <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div> -->
                                     <img src="assets/images/produk/produk-15.jpeg" alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Kaos Indonesia</h4>
-                                    <span>RP 100.000</span>
+                                    <span class="text-warning">RP 100.000</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -332,22 +316,25 @@ https://templatemo.com/tm-571-hexashop
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
                                     </ul>
+                                    <button class="btn btn-warning text-white w-100"
+                                        onclick="addToCart('Kaos Indonesia', 100000, 'assets/images/produk/produk-15.jpeg')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                        </svg>
+                                        Simpan Ke Keranjang
+                                    </button>
                                 </div>
                             </div>
+
                             <div class="item">
                                 <div class="thumb">
-                                    <!-- <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div> -->
                                     <img src="assets/images/produk/produk-18.jpeg" alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Camera L Tunik</h4>
-                                    <span>RP 170.000</span>
+                                    <span class="text-warning">RP 170.000</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -355,8 +342,18 @@ https://templatemo.com/tm-571-hexashop
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
                                     </ul>
+                                    <button class="btn btn-warning text-white w-100"
+                                        onclick="addToCart('Camera L Tunik', 170000, 'assets/images/produk/produk-18.jpeg')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                        </svg>
+                                        Simpan Ke Keranjang
+                                    </button>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -384,18 +381,11 @@ https://templatemo.com/tm-571-hexashop
                         <div class="owl-women-item owl-carousel">
                             <div class="item">
                                 <div class="thumb">
-                                    <!-- <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div> -->
                                     <img src="assets/images/produk/produk-10.jpeg" alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Alsya Pants</h4>
-                                    <span>RP 135.000</span>
+                                    <span class="text-warning">RP 135.000</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -403,22 +393,25 @@ https://templatemo.com/tm-571-hexashop
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
                                     </ul>
+                                    <button class="btn btn-warning text-white w-100"
+                                        onclick="addToCart('Alsya Pants', 135000, 'assets/images/produk/produk-10.jpeg')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                        </svg>
+                                        Simpan Ke Keranjang
+                                    </button>
                                 </div>
                             </div>
+
                             <div class="item">
                                 <div class="thumb">
-                                    <!-- <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div> -->
                                     <img src="assets/images/produk/produk-11.jpeg" alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Neva Pants</h4>
-                                    <span>RP 140.000</span>
+                                    <span class="text-warning">RP 140.000</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -426,22 +419,25 @@ https://templatemo.com/tm-571-hexashop
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
                                     </ul>
+                                    <button class="btn btn-warning text-white w-100"
+                                        onclick="addToCart('Neva Pants', 140000, 'assets/images/produk/produk-11.jpeg')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                        </svg>
+                                        Simpan Ke Keranjang
+                                    </button>
                                 </div>
                             </div>
+
                             <div class="item">
                                 <div class="thumb">
-                                    <!-- <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div> -->
                                     <img src="assets/images/produk/produk-12.jpeg" alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Zihan Skirt</h4>
-                                    <span>RP 155.000</span>
+                                    <span class="text-warning">RP 155.000</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -449,8 +445,18 @@ https://templatemo.com/tm-571-hexashop
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
                                     </ul>
+                                    <button class="btn btn-warning text-white w-100"
+                                        onclick="addToCart('Zihan Skirt', 155000, 'assets/images/produk/produk-12.jpeg')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                        </svg>
+                                        Simpan Ke Keranjang
+                                    </button>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -465,7 +471,7 @@ https://templatemo.com/tm-571-hexashop
             <div class="row">
                 <div class="col-lg-6">
                     <div class="section-heading">
-                        <h2>Unknown ???</h2>
+                        <h2>Koleksi Lengkap</h2>
                         <!-- <span>Details to details is what makes Hexashop different from the other themes.</span> -->
                     </div>
                 </div>
@@ -478,18 +484,11 @@ https://templatemo.com/tm-571-hexashop
                         <div class="owl-kid-item owl-carousel">
                             <div class="item">
                                 <div class="thumb">
-                                    <!-- <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div> -->
                                     <img src="assets/images/produk/produk-1.jpeg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>????</h4>
-                                    <span>????</span>
+                                    <h4>Vanya Blouse 1 Set A</h4>
+                                    <span class="text-warning">RP 310.000</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -497,22 +496,25 @@ https://templatemo.com/tm-571-hexashop
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
                                     </ul>
+                                    <button class="btn btn-warning text-white w-100"
+                                        onclick="addToCart('Vanya Blouse 1 Set A', 310000, 'assets/images/produk/produk-1.jpeg')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                        </svg>
+                                        Simpan Ke Keranjang
+                                    </button>
                                 </div>
                             </div>
+                            
                             <div class="item">
                                 <div class="thumb">
-                                    <!-- <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div> -->
                                     <img src="assets/images/produk/produk-2.jpeg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>????</h4>
-                                    <span>????</span>
+                                    <h4>Vanya Blouse 1 Set B</h4>
+                                    <span class="text-warning">RP 310.000</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -520,22 +522,25 @@ https://templatemo.com/tm-571-hexashop
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
                                     </ul>
+                                    <button class="btn btn-warning text-white w-100"
+                                        onclick="addToCart('Vanya Blouse 1 Set B', 310000, 'assets/images/produk/produk-2.jpeg')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                        </svg>
+                                        Simpan Ke Keranjang
+                                    </button>
                                 </div>
                             </div>
+                            
                             <div class="item">
                                 <div class="thumb">
-                                    <!-- <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div> -->
                                     <img src="assets/images/produk/produk-3.jpeg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>????</h4>
-                                    <span>????</span>
+                                    <h4>Vanya Blouse 1 Set C</h4>
+                                    <span class="text-warning">RP 310.000</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -543,22 +548,25 @@ https://templatemo.com/tm-571-hexashop
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
                                     </ul>
+                                    <button class="btn btn-warning text-white w-100"
+                                        onclick="addToCart('Vanya Blouse 1 Set C', 310000, 'assets/images/produk/produk-3.jpeg')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                        </svg>
+                                        Simpan Ke Keranjang
+                                    </button>
                                 </div>
                             </div>
+                            
                             <div class="item">
                                 <div class="thumb">
-                                    <!-- <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div> -->
                                     <img src="assets/images/produk/produk-4.jpeg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>????</h4>
-                                    <span>????</span>
+                                    <h4>Vanya Blouse 1 Set D</h4>
+                                    <span class="text-warning">RP 310.000</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -566,22 +574,25 @@ https://templatemo.com/tm-571-hexashop
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
                                     </ul>
+                                    <button class="btn btn-warning text-white w-100"
+                                        onclick="addToCart('Vanya Blouse 1 Set D', 310000, 'assets/images/produk/produk-4.jpeg')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                        </svg>
+                                        Simpan Ke Keranjang
+                                    </button>
                                 </div>
                             </div>
+                            
                             <div class="item">
                                 <div class="thumb">
-                                    <!-- <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div> -->
                                     <img src="assets/images/produk/produk-5.jpeg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>????</h4>
-                                    <span>????</span>
+                                    <h4>Vanya Blouse 1 Set E</h4>
+                                    <span class="text-warning">RP 310.000</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -589,22 +600,25 @@ https://templatemo.com/tm-571-hexashop
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
                                     </ul>
+                                    <button class="btn btn-warning text-white w-100"
+                                        onclick="addToCart('Vanya Blouse 1 Set E', 310000, 'assets/images/produk/produk-5.jpeg')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                        </svg>
+                                        Simpan Ke Keranjang
+                                    </button>
                                 </div>
                             </div>
+                            
                             <div class="item">
                                 <div class="thumb">
-                                    <!-- <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div> -->
                                     <img src="assets/images/produk/produk-6.jpeg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>????</h4>
-                                    <span>????</span>
+                                    <h4>Vanya Blouse 1 Set F</h4>
+                                    <span class="text-warning">RP 310.000</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -612,22 +626,25 @@ https://templatemo.com/tm-571-hexashop
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
                                     </ul>
+                                    <button class="btn btn-warning text-white w-100"
+                                        onclick="addToCart('Vanya Blouse 1 Set F', 310000, 'assets/images/produk/produk-6.jpeg')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                        </svg>
+                                        Simpan Ke Keranjang
+                                    </button>
                                 </div>
                             </div>
+                            
                             <div class="item">
                                 <div class="thumb">
-                                    <!-- <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div> -->
                                     <img src="assets/images/produk/produk-7.jpeg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>????</h4>
-                                    <span>????</span>
+                                    <h4>Vanya Blouse 1 Set G</h4>
+                                    <span class="text-warning">RP 310.000</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -635,8 +652,18 @@ https://templatemo.com/tm-571-hexashop
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
                                     </ul>
+                                    <button class="btn btn-warning text-white w-100"
+                                        onclick="addToCart('Vanya Blouse 1 Set G', 310000, 'assets/images/produk/produk-7.jpeg')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                        </svg>
+                                        Simpan Ke Keranjang
+                                    </button>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -645,182 +672,29 @@ https://templatemo.com/tm-571-hexashop
     </section>
     <!-- ***** Kids Area Ends ***** -->
 
-    <!-- ***** Explore Area Starts ***** -->
-    <!-- <section class="section" id="explore">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="left-content">
-                        <h2>Explore Our Products</h2>
-                        <span>You are allowed to use this HexaShop HTML CSS template. You can feel free to modify or edit this layout. You can convert this template as any kind of ecommerce CMS theme as you wish.</span>
-                        <div class="quote">
-                            <i class="fa fa-quote-left"></i><p>You are not allowed to redistribute this template ZIP file on any other website.</p>
-                        </div>
-                        <p>There are 5 pages included in this HexaShop Template and we are providing it to you for absolutely free of charge at our TemplateMo website. There are web development costs for us.</p>
-                        <p>If this template is beneficial for your website or business, please kindly <a rel="nofollow" href="https://paypal.me/templatemo" target="_blank">support us</a> a little via PayPal. Please also tell your friends about our great website. Thank you.</p>
-                        <div class="main-border-button">
-                            <a href="products.html">Discover More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="right-content">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="leather">
-                                    <h4>Leather Bags</h4>
-                                    <span>Latest Collection</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="first-image">
-                                    <img src="assets/images/explore-image-01.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="second-image">
-                                    <img src="assets/images/explore-image-02.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="types">
-                                    <h4>Different Types</h4>
-                                    <span>Over 304 Products</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- ***** Explore Area Ends ***** -->
-
-    <!-- ***** Social Area Starts ***** -->
-    <!-- <section class="section" id="social">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-heading">
-                        <h2>Social Media</h2>
-                        <span>Details to details is what makes Hexashop different from the other themes.</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row images">
-                <div class="col-2">
-                    <div class="thumb">
-                        <div class="icon">
-                            <a href="http://instagram.com">
-                                <h6>Fashion</h6>
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </div>
-                        <img src="assets/images/instagram-01.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="thumb">
-                        <div class="icon">
-                            <a href="http://instagram.com">
-                                <h6>New</h6>
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </div>
-                        <img src="assets/images/instagram-02.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="thumb">
-                        <div class="icon">
-                            <a href="http://instagram.com">
-                                <h6>Brand</h6>
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </div>
-                        <img src="assets/images/instagram-03.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="thumb">
-                        <div class="icon">
-                            <a href="http://instagram.com">
-                                <h6>Makeup</h6>
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </div>
-                        <img src="assets/images/instagram-04.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="thumb">
-                        <div class="icon">
-                            <a href="http://instagram.com">
-                                <h6>Leather</h6>
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </div>
-                        <img src="assets/images/instagram-05.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="thumb">
-                        <div class="icon">
-                            <a href="http://instagram.com">
-                                <h6>Bag</h6>
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </div>
-                        <img src="assets/images/instagram-06.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- ***** Social Area Ends ***** -->
-
     <!-- ***** Subscribe Area Starts ***** -->
     <div class="subscribe">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="section-heading">
-                        <h2>Hubungi Kami / Follow Akun Sosial Media Kami Untuk Mendapatkan Info Produk Terupdate</h2>
+                        <h2 class="text-center">Hubungi Kami / Follow Akun Sosial Media Kami Untuk Mendapatkan Info Produk Terupdate</h2>
                         <!-- <span>Details to details is what makes Hexashop different from the other themes.</span> -->
                     </div>
-                    <form id="subscribe" action="" method="get">
-                        <div class="row">
-                          <div class="col-lg-5">
-                            <fieldset>
-                              <input name="name" type="text" id="name" placeholder="Your Name" required="">
-                            </fieldset>
-                          </div>
-                          <div class="col-lg-5">
-                            <fieldset>
-                              <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address" required="">
-                            </fieldset>
-                          </div>
-                          <div class="col-lg-2">
-                            <fieldset>
-                              <button type="submit" id="form-submit" class="main-dark-button"><i class="fa fa-paper-plane"></i></button>
-                            </fieldset>
-                          </div>
-                        </div>
-                    </form>
+
                 </div>
                 <div class="col-lg-4">
                     <div class="row">
                         <div class="col-6">
                             <ul>
-                                <li>Lokasi Toko:<br><span>Perum palm kondang asri blok A6 no 20 ds.kondang jaya kec.karawang timur kab.karawang</span></li>
+                                <li>Lokasi Toko:<br><span>Perum palm kondang asri blok A6 no 20 ds.kondang jaya
+                                        kec.karawang timur kab.karawang</span></li>
                                 <li>No Telp:<br><span>0813-8988-4769</span></li>
                             </ul>
                         </div>
                         <div class="col-6">
                             <ul>
-                                <li>Operasional Toko:<br><span>09:00 WIB - 17.00 WIB</span></li>
+                                <li>Operasional Toko:<br><span>09.00 WIB - 17.00 WIB</span></li>
                                 <li>Email:<br><span>email.com</span></li>
                                 <li>Social Media:<br><span><a href="#">Facebook</a>, <a href="#">Instagram</a></li>
                             </ul>
@@ -831,33 +705,34 @@ https://templatemo.com/tm-571-hexashop
         </div>
     </div>
     <!-- ***** Subscribe Area Ends ***** -->
-    
+
     <!-- ***** Footer Start ***** -->
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div class="first-item">
                         <div class="logo">
                             <!-- <img src="assets/images/white-logo.png" alt="hexashop ecommerce templatemo"> -->
                             <h2 class="text-white"><span class="text-warning">Queen</span> Fashion</h2>
                         </div>
                         <ul>
-                            <li><a href="#">Perum palm kondang asri blok A6 no 20 ds.kondang jaya kec.karawang timur kab.karawang</a></li>
+                            <li><a href="#">Perum palm kondang asri blok A6 no 20 ds.kondang jaya kec.karawang timur
+                                    kab.karawang</a></li>
                             <li><a href="#">queenfashion@mail.com</a></li>
                             <li><a href="#">0813-8988-4769</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <h4>Shopping &amp; Categories</h4>
+                <div class="col-lg-4">
+                    <h4>Kategori &amp; Belanja</h4>
                     <ul>
                         <li><a href="#">Atasan</a></li>
                         <li><a href="#">Bawahan</a></li>
-                        <li><a href="#">Aksesoris</a></li>
+                        <li><a href="#">Satu Set Pakaian</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <h4>Useful Links</h4>
                     <ul>
                         <li><a href="#">Homepage</a></li>
@@ -877,7 +752,7 @@ https://templatemo.com/tm-571-hexashop
                 </div> -->
                 <div class="col-lg-12">
                     <div class="under-footer">
-                        <p>Copyright © 2024 Ayano All Rights Reserved. 
+                        <p>Copyright © 2024 Ayano All Rights Reserved.
                         <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
@@ -887,7 +762,7 @@ https://templatemo.com/tm-571-hexashop
             </div>
         </div>
     </footer>
-    
+
 
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>
@@ -903,31 +778,35 @@ https://templatemo.com/tm-571-hexashop
     <script src="assets/js/scrollreveal.min.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
     <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/imgfix.min.js"></script> 
-    <script src="assets/js/slick.js"></script> 
-    <script src="assets/js/lightbox.js"></script> 
-    <script src="assets/js/isotope.js"></script> 
-    
+    <script src="assets/js/imgfix.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
 
     <script>
 
-        $(function() {
+        $(function () {
             var selectedClass = "";
-            $("p").click(function(){
-            selectedClass = $(this).attr("data-rel");
-            $("#portfolio").fadeTo(50, 0.1);
-                $("#portfolio div").not("."+selectedClass).fadeOut();
-            setTimeout(function() {
-              $("."+selectedClass).fadeIn();
-              $("#portfolio").fadeTo(50, 1);
-            }, 500);
-                
+            $("p").click(function () {
+                selectedClass = $(this).attr("data-rel");
+                $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("." + selectedClass).fadeOut();
+                setTimeout(function () {
+                    $("." + selectedClass).fadeIn();
+                    $("#portfolio").fadeTo(50, 1);
+                }, 500);
+
             });
         });
 
     </script>
 
-  </body>
+    <script src="/assets/js/checkout.js"></script>
+
+</body>
+
 </html>

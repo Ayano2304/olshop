@@ -1,11 +1,3 @@
-/*
-
-TemplateMo 571 Hexashop
-
-https://templatemo.com/tm-571-hexashop
-
-*/
-
 /* ---------------------------------------------
 Table of contents
 ------------------------------------------------
@@ -147,8 +139,8 @@ body {
 
 .main-border-button a {
   font-size: 13px;
-  color: #fff;
-  border: 1px solid #fff;
+  color: #ffcb2f;
+  border: 1px solid #ffcb2f;
   padding: 12px 25px;
   display: inline-block;
   font-weight: 500;
@@ -156,8 +148,8 @@ body {
 }
 
 .main-border-button a:hover {
-  background-color: #fff;
-  color: #2a2a2a;
+  background-color: #ffcb2f;
+  color: #fff;
 }
 
 .main-white-button a {
@@ -318,12 +310,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #aaa!important;
+  color: #ffcb2f!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #aaa!important;
+  color: #ffcb2f!important;
   opacity: 1;
 }
 
@@ -525,7 +517,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #aaa;
+  color: #ffcb2f;
 }
 
 @media (max-width: 1200px) {
@@ -539,12 +531,61 @@ header
 }
 
 @media (max-width: 767px) {
+
+   .table-responsive {
+        display: block;
+    }
+    .table-responsive table {
+        border: 0;
+        width: 100%;
+    }
+    .table-responsive thead {
+        display: none;
+    }
+    .table-responsive tr {
+        display: block;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #ddd;
+    }
+    .table-responsive td {
+        display: block;
+        text-align: left; /* Set to left to align text to the left */
+        font-size: 14px;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+    }
+    .table-responsive td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 5px;
+        position: absolute; /* Absolute positioning to align data labels */
+        left: 10px;
+        top: 10px;
+    }
+    .table-responsive td:nth-of-type(1) { text-align: center; }
+    .table-responsive td:nth-of-type(2) { text-align: center; }
+    .table-responsive td:nth-of-type(3) { text-align: right; }
+    .table-responsive td:nth-of-type(4) { text-align: right; }
+    .table-responsive td:nth-of-type(5) { text-align: right; }
+    .table-responsive td:nth-of-type(6) { text-align: right; }
+    .table-responsive td:nth-of-type(7) { text-align: center; }
+  #cart::before{
+    content: "Keranjang";
+  }
+
+  .my-cart{
+    font-size: 30px;
+  }
+
   .header-area .main-nav .logo {
     color: #1e1e1e;
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #aaa!important;
+    color: #ffcb2f!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -2311,7 +2352,7 @@ responsive
   }
 }
 
-@media (max-width: 767px) {
+
   .main-banner .left-content .thumb .inner-content {
     left: 50%;
     top: 47.5%;
@@ -2358,7 +2399,7 @@ responsive
 }
 
 #preloader .jumper > div {
-  background-color: #fff;
+  background-color: #ffcb2f;
   width: 10px;
   height: 10px;
   border-radius: 100%;
